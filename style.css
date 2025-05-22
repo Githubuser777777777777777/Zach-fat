@@ -35,16 +35,14 @@ footer {
   margin-top: 2rem;
   border-top: 2px solid #ffcb05;
   
-}
 .top-right-img {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  max-width: 300px; 
-  width: 100%;
+  float: right;
+  margin: 20px 20px 20px 40px; 
+  width: 300px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
+  
 #poundTracker {
   color: #d1495b;
   cursor: pointer;
