@@ -1,0 +1,34 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background-color: #fffbe7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffcb05;
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 4px solid #ff8c00;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #d1495b;
+}
+
+ul {
+  list-style-type: "🍟 ";
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9em;
+  background-color: #eee;
+  margin-top: 2rem;
+}
