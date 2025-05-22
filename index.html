@@ -30,10 +30,21 @@
       <h2>Snack Stats</h2>
       <p>Calories per day: Unknown<br>Favorite chip flavor: "Nacho Galactic Blast"<br>Snack Nemesis: The celery stick</p>
     </section>
+    
+    <section>
+  <h2>Live Pound Tracker</h2>
+  <p id="poundTracker" onclick="togglePoundTracker()">Click to view status</p>
+</section>
+    
   </main>
 
   <footer>
     <p>If you are reading this, you are as fat as Zach ( not good ) ( about 3000 pounds ).</p>
   </footer>
+  <script>
+  function togglePoundTracker() {
+    document.getElementById("poundTracker").textContent = "Unknown";
+  }
+</script>
 </body>
 </html>
