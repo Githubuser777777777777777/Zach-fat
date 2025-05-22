@@ -23,21 +23,35 @@ h1, h2 {
 
 ul {
   list-style-type: "🍟 ";
+  margin-right: 8px;
 }
 
 footer {
   text-align: center;
   padding: 1rem;
-  font-size: 0.9em;
+  font-size: 1em;
   background-color: #eee;
   margin-top: 2rem;
+  margin-top: 2rem;
+  border-top: 2px solid #ffcb05;
   
 }
 .top-right-img {
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 300px; 
+  max-width: 300px; 
+  width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
+#poundTracker {
+  color: #d1495b;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#poundTracker:hover {
+  color: #ff8c00;
+}
+
