@@ -58,3 +58,19 @@ footer {
   color: #ff8c00;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  background-color: #d1495b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff8c00;
+}
+
